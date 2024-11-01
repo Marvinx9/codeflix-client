@@ -11,6 +11,14 @@ export default function Header() {
                     <li>Movies</li>
                     <li>Latest</li>
                 </ul>
+            </div> 
+            <div className='flex items-center space-x-4'>
+              <p className='hidden cursor-not-allowed lg:inline'>Kids</p>
+                <img
+                    src='banner/profile.png'
+                    alt='profile'
+                    className='cursor-pointer rounded'
+                />
             </div>
         </header>
     )
