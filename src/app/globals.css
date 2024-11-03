@@ -4,6 +4,12 @@
 
 @layer base {
   body {
-    @apply bg-[#383838] text-white;
+    @apply h-full bg-[#383838] text-white;
+  }
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    scrollbar-width: none;
   }
 }
